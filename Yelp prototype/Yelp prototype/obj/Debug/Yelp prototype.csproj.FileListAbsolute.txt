@@ -1,0 +1,46 @@
+c:\Yelp prototype\Yelp prototype\bin\Yelp prototype.dll
+c:\Yelp prototype\Yelp prototype\bin\Yelp prototype.pdb
+c:\Yelp prototype\Yelp prototype\bin\EntityFramework.dll
+c:\Yelp prototype\Yelp prototype\bin\Microsoft.Web.Infrastructure.dll
+c:\Yelp prototype\Yelp prototype\bin\System.Json.dll
+c:\Yelp prototype\Yelp prototype\bin\System.Net.Http.dll
+c:\Yelp prototype\Yelp prototype\bin\System.Net.Http.Formatting.dll
+c:\Yelp prototype\Yelp prototype\bin\System.Net.Http.WebRequest.dll
+c:\Yelp prototype\Yelp prototype\bin\System.Web.Helpers.dll
+c:\Yelp prototype\Yelp prototype\bin\System.Web.Http.Common.dll
+c:\Yelp prototype\Yelp prototype\bin\System.Web.Http.Data.dll
+c:\Yelp prototype\Yelp prototype\bin\System.Web.Http.Data.EntityFramework.dll
+c:\Yelp prototype\Yelp prototype\bin\System.Web.Http.Data.Helpers.dll
+c:\Yelp prototype\Yelp prototype\bin\System.Web.Http.dll
+c:\Yelp prototype\Yelp prototype\bin\System.Web.Http.WebHost.dll
+c:\Yelp prototype\Yelp prototype\bin\System.Web.Mvc.dll
+c:\Yelp prototype\Yelp prototype\bin\System.Web.Optimization.dll
+c:\Yelp prototype\Yelp prototype\bin\System.Web.Providers.dll
+c:\Yelp prototype\Yelp prototype\bin\System.Web.Razor.dll
+c:\Yelp prototype\Yelp prototype\bin\System.Web.WebPages.Deployment.dll
+c:\Yelp prototype\Yelp prototype\bin\System.Web.WebPages.dll
+c:\Yelp prototype\Yelp prototype\bin\System.Web.WebPages.Razor.dll
+c:\Yelp prototype\Yelp prototype\bin\EntityFramework.xml
+c:\Yelp prototype\Yelp prototype\bin\System.Json.xml
+c:\Yelp prototype\Yelp prototype\bin\System.Net.Http.xml
+c:\Yelp prototype\Yelp prototype\bin\System.Net.Http.Formatting.xml
+c:\Yelp prototype\Yelp prototype\bin\System.Net.Http.WebRequest.xml
+c:\Yelp prototype\Yelp prototype\bin\System.Web.Helpers.xml
+c:\Yelp prototype\Yelp prototype\bin\System.Web.Http.xml
+c:\Yelp prototype\Yelp prototype\bin\System.Web.Http.Common.xml
+c:\Yelp prototype\Yelp prototype\bin\System.Web.Http.Data.xml
+c:\Yelp prototype\Yelp prototype\bin\System.Web.Http.Data.EntityFramework.xml
+c:\Yelp prototype\Yelp prototype\bin\System.Web.Http.Data.Helpers.xml
+c:\Yelp prototype\Yelp prototype\bin\System.Web.Http.WebHost.xml
+c:\Yelp prototype\Yelp prototype\bin\System.Web.Mvc.xml
+c:\Yelp prototype\Yelp prototype\bin\System.Web.Razor.xml
+c:\Yelp prototype\Yelp prototype\bin\System.Web.WebPages.xml
+c:\Yelp prototype\Yelp prototype\bin\System.Web.WebPages.Deployment.xml
+c:\Yelp prototype\Yelp prototype\bin\System.Web.WebPages.Razor.xml
+c:\Yelp prototype\Yelp prototype\obj\Debug\ResolveAssemblyReference.cache
+c:\Yelp prototype\Yelp prototype\obj\Debug\Yelp prototype.dll
+c:\Yelp prototype\Yelp prototype\obj\Debug\Yelp prototype.pdb
+c:\Yelp prototype\Yelp prototype\bin\Newtonsoft.Json.dll
+c:\Yelp prototype\Yelp prototype\bin\RestSharp.dll
+c:\Yelp prototype\Yelp prototype\bin\YelpSharp.dll
+c:\Yelp prototype\Yelp prototype\bin\Newtonsoft.Json.xml

@@ -1,0 +1,90 @@
+@{
+    ViewBag.Title = "Welcome to ASP.NET Single Page Application";
+}
+
+<script>
+    $(document).ready(function () {
+
+        var availableCategories = [];
+        $.ajax({
+            //type: "POST",
+            url: "/api/CategoryName/get",
+            dataType: 'json',
+            success: function (returnData) {                
+                $.each(returnData, function (i, item) {
+                    availableCategories.push(returnData[i]);
+                });                
+                $('#categoryList').autocomplete({
+                    source: availableCategories
+                })
+            }
+        });
+
+
+
+
+        $('#submitter').click(function () {
+
+            var data = {
+                location: $('#location').val(),
+                categoryList: $('#categoryList').val(),
+                radius: $('#radius').val()
+            };
+            $.ajax({
+                //type: "POST",
+                url: "/api/Business/Get",
+                data: data,
+                dataType: 'json',
+                success: function (returnData) {
+                    $.each(returnData, function (i, item) {
+
+                    });
+                }
+            });
+        });
+
+
+    });
+</script>
+
+
+<ul class="options">
+    <li>
+        <label for="location">
+            Location 
+        </label>
+        <br />
+        <input id="location" name="location" />
+    </li>
+    <li>
+        <label for="categoryList">
+            Activity Type 
+        </label>
+        <br />
+        <input id="categoryList" name="categoryList" />
+    </li>    
+    <li>
+        <label for="radius">
+            Radius 
+        <label>
+        <br />
+        <select style="list-style-type:none" id="radius" name="radius">
+            <option value="5">
+                 Select Radius
+            </option>
+            <option value="5">
+                 < 5
+            </option>
+            <option value="10">
+                10
+            </option>
+            <option value="25">
+                25
+            </option>
+            <option value="50">
+                50
+            </option>
+        </select>
+    </li>
+</ul>
+<input type="submit" id="submitter" value="search" />

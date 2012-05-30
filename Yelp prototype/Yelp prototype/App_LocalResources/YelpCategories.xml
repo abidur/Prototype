@@ -1,0 +1,1267 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<categories>
+  <category>
+    <FriendlyName>Active Life</FriendlyName>
+    <yelpName>active</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Amateur Sports Teams</FriendlyName>
+    <yelpName>amateursportsteams</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Amusement Parks</FriendlyName>
+    <yelpName>amusementparks</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Aquariums</FriendlyName>
+    <yelpName>aquariums</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Archery</FriendlyName>
+    <yelpName>archery</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Beaches</FriendlyName>
+    <yelpName>beaches</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Bike Rentals</FriendlyName>
+    <yelpName>bikerentals</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Boating</FriendlyName>
+    <yelpName>boating</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Bowling</FriendlyName>
+    <yelpName>bowling</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Climbing</FriendlyName>
+    <yelpName>climbing</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Disc Golf</FriendlyName>
+    <yelpName>discgolf</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Diving</FriendlyName>
+    <yelpName>diving</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Free Diving</FriendlyName>
+    <yelpName>freediving</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Scuba Diving</FriendlyName>
+    <yelpName>scuba</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Fishing</FriendlyName>
+    <yelpName>fishing</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Fitness &amp; Instruction</FriendlyName>
+    <yelpName>fitness</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Dance Studios</FriendlyName>
+    <yelpName>dancestudio</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Gyms</FriendlyName>
+    <yelpName>gyms</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Martial Arts</FriendlyName>
+    <yelpName>martialarts</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Pilates</FriendlyName>
+    <yelpName>pilates</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Swimming Lessons/Schools</FriendlyName>
+    <yelpName>swimminglessons</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Tai Chi</FriendlyName>
+    <yelpName>taichi</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Trainers</FriendlyName>
+    <yelpName>healthtrainers</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Yoga</FriendlyName>
+    <yelpName>yoga</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Go Karts</FriendlyName>
+    <yelpName>gokarts</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Golf</FriendlyName>
+    <yelpName>golf</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Gun/Rifle Ranges</FriendlyName>
+    <yelpName>gun_ranges</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Hiking</FriendlyName>
+    <yelpName>hiking</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Horse Racing</FriendlyName>
+    <yelpName>horseracing</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Horseback Riding</FriendlyName>
+    <yelpName>horsebackriding</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Kiteboarding</FriendlyName>
+    <yelpName>kiteboarding</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Lakes</FriendlyName>
+    <yelpName>lakes</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Leisure Centers</FriendlyName>
+    <yelpName>leisure_centers</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Mini Golf</FriendlyName>
+    <yelpName>mini_golf</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Mountain Biking</FriendlyName>
+    <yelpName>mountainbiking</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Paddleboarding</FriendlyName>
+    <yelpName>paddleboarding</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Paintball</FriendlyName>
+    <yelpName>paintball</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Parks</FriendlyName>
+    <yelpName>parks</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Dog Parks</FriendlyName>
+    <yelpName>dog_parks</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Skate Parks</FriendlyName>
+    <yelpName>skate_parks</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Playgrounds</FriendlyName>
+    <yelpName>playgrounds</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Rafting/Kayaking</FriendlyName>
+    <yelpName>rafting</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Recreation Centers</FriendlyName>
+    <yelpName>recreation</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Rock Climbing</FriendlyName>
+    <yelpName>rock_climbing</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Skating Rinks</FriendlyName>
+    <yelpName>skatingrinks</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Skydiving</FriendlyName>
+    <yelpName>skydiving</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Soccer</FriendlyName>
+    <yelpName>football</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Sports Clubs</FriendlyName>
+    <yelpName>sports_clubs</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Summer Camps</FriendlyName>
+    <yelpName>summer_camps</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Surfing</FriendlyName>
+    <yelpName>surfing</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Swimming Pools</FriendlyName>
+    <yelpName>swimmingpools</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Tennis</FriendlyName>
+    <yelpName>tennis</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Tubing</FriendlyName>
+    <yelpName>tubing</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Zoos</FriendlyName>
+    <yelpName>zoos</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Arts &amp; Entertainment</FriendlyName>
+    <yelpName>arts</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Arcades</FriendlyName>
+    <yelpName>arcades</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Art Galleries</FriendlyName>
+    <yelpName>galleries</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Botanical Gardens</FriendlyName>
+    <yelpName>gardens</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Casinos</FriendlyName>
+    <yelpName>casinos</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Cinema</FriendlyName>
+    <yelpName>movietheaters</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Festivals</FriendlyName>
+    <yelpName>festivals</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Jazz &amp; Blues</FriendlyName>
+    <yelpName>jazzandblues</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Museums</FriendlyName>
+    <yelpName>museums</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Music Venues</FriendlyName>
+    <yelpName>musicvenues</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Opera &amp; Ballet</FriendlyName>
+    <yelpName>opera</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Performing Arts</FriendlyName>
+    <yelpName>theater</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Professional Sports Teams</FriendlyName>
+    <yelpName>sportsteams</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Psychics &amp; Astrologers</FriendlyName>
+    <yelpName>psychic_astrology</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Social Clubs</FriendlyName>
+    <yelpName>social_clubs</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Stadiums &amp; Arenas</FriendlyName>
+    <yelpName>stadiumsarenas</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Ticket Sales</FriendlyName>
+    <yelpName>ticketsales</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Wineries</FriendlyName>
+    <yelpName>wineries</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Food</FriendlyName>
+    <yelpName>food</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Bagels</FriendlyName>
+    <yelpName>bagels</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Bakeries</FriendlyName>
+    <yelpName>bakeries</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Beer, Wine &amp; Spirits</FriendlyName>
+    <yelpName>beer_and_wine</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Breweries</FriendlyName>
+    <yelpName>breweries</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Butcher</FriendlyName>
+    <yelpName>butcher</yelpName>
+  </category>
+  <category>
+    <FriendlyName>CSA</FriendlyName>
+    <yelpName>csa</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Coffee &amp; Tea</FriendlyName>
+    <yelpName>coffee</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Convenience Stores</FriendlyName>
+    <yelpName>convenience</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Desserts</FriendlyName>
+    <yelpName>desserts</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Do-It-Yourself Food</FriendlyName>
+    <yelpName>diyfood</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Donuts</FriendlyName>
+    <yelpName>donuts</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Farmers Market</FriendlyName>
+    <yelpName>farmersmarket</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Food Delivery Services</FriendlyName>
+    <yelpName>fooddeliveryservices</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Gelato</FriendlyName>
+    <yelpName>gelato</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Grocery</FriendlyName>
+    <yelpName>grocery</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Ice Cream &amp; Frozen Yogurt</FriendlyName>
+    <yelpName>icecream</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Internet Cafes</FriendlyName>
+    <yelpName>internetcafe</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Juice Bars &amp; Smoothies</FriendlyName>
+    <yelpName>juicebars</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Shaved Ice</FriendlyName>
+    <yelpName>shavedice</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Specialty Food</FriendlyName>
+    <yelpName>gourmet</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Candy Stores</FriendlyName>
+    <yelpName>candy</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Cheese Shops</FriendlyName>
+    <yelpName>cheese</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Chocolatiers and Shops</FriendlyName>
+    <yelpName>chocolate</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Ethnic Food</FriendlyName>
+    <yelpName>ethnicmarkets</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Fruits &amp; Veggies</FriendlyName>
+    <yelpName>markets</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Health Markets</FriendlyName>
+    <yelpName>healthmarkets</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Herbs and Spices</FriendlyName>
+    <yelpName>herbsandspices</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Meat Shops</FriendlyName>
+    <yelpName>meats</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Seafood Markets</FriendlyName>
+    <yelpName>seafoodmarkets</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Street Vendors</FriendlyName>
+    <yelpName>streetvendors</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Tea Rooms</FriendlyName>
+    <yelpName>tea</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Wineries</FriendlyName>
+    <yelpName>wineries</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Local Flavor</FriendlyName>
+    <yelpName>localflavor</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Nightlife</FriendlyName>
+    <yelpName>nightlife</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Adult Entertainment</FriendlyName>
+    <yelpName>adultentertainment</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Bars</FriendlyName>
+    <yelpName>bars</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Champagne Bars</FriendlyName>
+    <yelpName>champagne_bars</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Dive Bars</FriendlyName>
+    <yelpName>divebars</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Gay Bars</FriendlyName>
+    <yelpName>gaybars</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Hookah Bars</FriendlyName>
+    <yelpName>hookah_bars</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Lounges</FriendlyName>
+    <yelpName>lounges</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Pubs</FriendlyName>
+    <yelpName>pubs</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Sports Bars</FriendlyName>
+    <yelpName>sportsbars</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Wine Bars</FriendlyName>
+    <yelpName>wine_bars</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Comedy Clubs</FriendlyName>
+    <yelpName>comedyclubs</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Dance Clubs</FriendlyName>
+    <yelpName>danceclubs</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Jazz &amp; Blues</FriendlyName>
+    <yelpName>jazzandblues</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Karaoke</FriendlyName>
+    <yelpName>karaoke</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Music Venues</FriendlyName>
+    <yelpName>musicvenues</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Piano Bars</FriendlyName>
+    <yelpName>pianobars</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Pool Halls</FriendlyName>
+    <yelpName>poolhalls</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Restaurants</FriendlyName>
+    <yelpName>restaurants</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Afghan</FriendlyName>
+    <yelpName>afghani</yelpName>
+  </category>
+  <category>
+    <FriendlyName>African</FriendlyName>
+    <yelpName>african</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Senegalese</FriendlyName>
+    <yelpName>senegalese</yelpName>
+  </category>
+  <category>
+    <FriendlyName>South African</FriendlyName>
+    <yelpName>southafrican</yelpName>
+  </category>
+  <category>
+    <FriendlyName>New American</FriendlyName>
+    <yelpName>newamerican</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Traditional American</FriendlyName>
+    <yelpName>tradamerican</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Argentine</FriendlyName>
+    <yelpName>argentine</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Asian Fusion</FriendlyName>
+    <yelpName>asianfusion</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Austrian</FriendlyName>
+    <yelpName>austrian</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Bangladeshi</FriendlyName>
+    <yelpName>bangladeshi</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Barbeque</FriendlyName>
+    <yelpName>bbq</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Basque</FriendlyName>
+    <yelpName>basque</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Belgian</FriendlyName>
+    <yelpName>belgian</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Brasseries</FriendlyName>
+    <yelpName>brasseries</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Brazilian</FriendlyName>
+    <yelpName>brazilian</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Breakfast &amp; Brunch</FriendlyName>
+    <yelpName>breakfast_brunch</yelpName>
+  </category>
+  <category>
+    <FriendlyName>British</FriendlyName>
+    <yelpName>british</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Buffets</FriendlyName>
+    <yelpName>buffets</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Burgers</FriendlyName>
+    <yelpName>burgers</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Burmese</FriendlyName>
+    <yelpName>burmese</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Cafes</FriendlyName>
+    <yelpName>cafes</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Cajun/Creole</FriendlyName>
+    <yelpName>cajun</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Cambodian</FriendlyName>
+    <yelpName>cambodian</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Caribbean</FriendlyName>
+    <yelpName>caribbean</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Dominican</FriendlyName>
+    <yelpName>dominican</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Haitian</FriendlyName>
+    <yelpName>haitian</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Puerto Rican</FriendlyName>
+    <yelpName>puertorican</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Trinidadian</FriendlyName>
+    <yelpName>trinidadian</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Catalan</FriendlyName>
+    <yelpName>catalan</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Cheesesteaks</FriendlyName>
+    <yelpName>cheesesteaks</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Chicken Wings</FriendlyName>
+    <yelpName>chicken_wings</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Chinese</FriendlyName>
+    <yelpName>chinese</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Dim Sum</FriendlyName>
+    <yelpName>dimsum</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Szechuan</FriendlyName>
+    <yelpName>szechuan</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Comfort Food</FriendlyName>
+    <yelpName>comfortfood</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Creperies</FriendlyName>
+    <yelpName>creperies</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Cuban</FriendlyName>
+    <yelpName>cuban</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Czech/Slovakian</FriendlyName>
+    <yelpName>czechslovakian</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Delis</FriendlyName>
+    <yelpName>delis</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Diners</FriendlyName>
+    <yelpName>diners</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Ethiopian</FriendlyName>
+    <yelpName>ethiopian</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Fast Food</FriendlyName>
+    <yelpName>hotdogs</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Filipino</FriendlyName>
+    <yelpName>filipino</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Fish &amp; Chips</FriendlyName>
+    <yelpName>fishnchips</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Fondue</FriendlyName>
+    <yelpName>fondue</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Food Court</FriendlyName>
+    <yelpName>food_court</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Food Stands</FriendlyName>
+    <yelpName>foodstands</yelpName>
+  </category>
+  <category>
+    <FriendlyName>French</FriendlyName>
+    <yelpName>french</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Gastropubs</FriendlyName>
+    <yelpName>gastropubs</yelpName>
+  </category>
+  <category>
+    <FriendlyName>German</FriendlyName>
+    <yelpName>german</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Gluten-Free</FriendlyName>
+    <yelpName>gluten_free</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Greek</FriendlyName>
+    <yelpName>greek</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Halal</FriendlyName>
+    <yelpName>halal</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Hawaiian</FriendlyName>
+    <yelpName>hawaiian</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Himalayan/Nepalese</FriendlyName>
+    <yelpName>himalayan</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Hot Dogs</FriendlyName>
+    <yelpName>hotdog</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Hot Pot</FriendlyName>
+    <yelpName>hotpot</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Hungarian</FriendlyName>
+    <yelpName>hungarian</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Iberian</FriendlyName>
+    <yelpName>iberian</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Indian</FriendlyName>
+    <yelpName>indpak</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Indonesian</FriendlyName>
+    <yelpName>indonesian</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Irish</FriendlyName>
+    <yelpName>irish</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Italian</FriendlyName>
+    <yelpName>italian</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Japanese</FriendlyName>
+    <yelpName>japanese</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Korean</FriendlyName>
+    <yelpName>korean</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Kosher</FriendlyName>
+    <yelpName>kosher</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Laotian</FriendlyName>
+    <yelpName>laotian</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Latin American</FriendlyName>
+    <yelpName>latin</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Colombian</FriendlyName>
+    <yelpName>colombian</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Salvadoran</FriendlyName>
+    <yelpName>salvadoran</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Venezuelan</FriendlyName>
+    <yelpName>venezuelan</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Live/Raw Food</FriendlyName>
+    <yelpName>raw_food</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Malaysian</FriendlyName>
+    <yelpName>malaysian</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Mediterranean</FriendlyName>
+    <yelpName>mediterranean</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Mexican</FriendlyName>
+    <yelpName>mexican</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Middle Eastern</FriendlyName>
+    <yelpName>mideastern</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Egyptian</FriendlyName>
+    <yelpName>egyptian</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Lebanese</FriendlyName>
+    <yelpName>lebanese</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Modern European</FriendlyName>
+    <yelpName>modern_european</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Mongolian</FriendlyName>
+    <yelpName>mongolian</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Moroccan</FriendlyName>
+    <yelpName>moroccan</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Pakistani</FriendlyName>
+    <yelpName>pakistani</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Persian/Iranian</FriendlyName>
+    <yelpName>persian</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Peruvian</FriendlyName>
+    <yelpName>peruvian</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Pizza</FriendlyName>
+    <yelpName>pizza</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Polish</FriendlyName>
+    <yelpName>polish</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Portuguese</FriendlyName>
+    <yelpName>portuguese</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Russian</FriendlyName>
+    <yelpName>russian</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Salad</FriendlyName>
+    <yelpName>salad</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Sandwiches</FriendlyName>
+    <yelpName>sandwiches</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Scandinavian</FriendlyName>
+    <yelpName>scandinavian</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Scottish</FriendlyName>
+    <yelpName>scottish</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Seafood</FriendlyName>
+    <yelpName>seafood</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Singaporean</FriendlyName>
+    <yelpName>singaporean</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Soul Food</FriendlyName>
+    <yelpName>soulfood</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Soup</FriendlyName>
+    <yelpName>soup</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Southern</FriendlyName>
+    <yelpName>southern</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Spanish</FriendlyName>
+    <yelpName>spanish</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Steakhouses</FriendlyName>
+    <yelpName>steak</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Sushi Bars</FriendlyName>
+    <yelpName>sushi</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Taiwanese</FriendlyName>
+    <yelpName>taiwanese</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Tapas Bars</FriendlyName>
+    <yelpName>tapas</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Tapas/Small Plates</FriendlyName>
+    <yelpName>tapasmallplates</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Tex-Mex</FriendlyName>
+    <yelpName>tex-mex</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Thai</FriendlyName>
+    <yelpName>thai</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Turkish</FriendlyName>
+    <yelpName>turkish</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Ukrainian</FriendlyName>
+    <yelpName>ukrainian</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Vegan</FriendlyName>
+    <yelpName>vegan</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Vegetarian</FriendlyName>
+    <yelpName>vegetarian</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Vietnamese</FriendlyName>
+    <yelpName>vietnamese</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Shopping</FriendlyName>
+    <yelpName>shopping</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Adult</FriendlyName>
+    <yelpName>adult</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Antiques</FriendlyName>
+    <yelpName>antiques</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Art Galleries</FriendlyName>
+    <yelpName>galleries</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Arts &amp; Crafts</FriendlyName>
+    <yelpName>artsandcrafts</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Art Supplies</FriendlyName>
+    <yelpName>artsupplies</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Cards &amp; Stationery</FriendlyName>
+    <yelpName>stationery</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Costumes</FriendlyName>
+    <yelpName>costumes</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Fabric Stores</FriendlyName>
+    <yelpName>fabricstores</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Framing</FriendlyName>
+    <yelpName>framing</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Baby Gear &amp; Furniture</FriendlyName>
+    <yelpName>baby_gear</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Books, Mags, Music and Video</FriendlyName>
+    <yelpName>media</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Bookstores</FriendlyName>
+    <yelpName>bookstores</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Comic Books</FriendlyName>
+    <yelpName>comicbooks</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Music &amp; DVDs</FriendlyName>
+    <yelpName>musicvideo</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Newspapers &amp; Magazines</FriendlyName>
+    <yelpName>mags</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Videos and Video Game Rental</FriendlyName>
+    <yelpName>videoandgames</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Vinyl Records</FriendlyName>
+    <yelpName>vinyl_records</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Bridal</FriendlyName>
+    <yelpName>bridal</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Computers</FriendlyName>
+    <yelpName>computers</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Cosmetics &amp; Beauty Supply</FriendlyName>
+    <yelpName>cosmetics</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Department Stores</FriendlyName>
+    <yelpName>deptstores</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Discount Store</FriendlyName>
+    <yelpName>discountstore</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Drugstores</FriendlyName>
+    <yelpName>drugstores</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Electronics</FriendlyName>
+    <yelpName>electronics</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Eyewear &amp; Opticians</FriendlyName>
+    <yelpName>opticians</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Fashion</FriendlyName>
+    <yelpName>fashion</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Accessories</FriendlyName>
+    <yelpName>accessories</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Children's Clothing</FriendlyName>
+    <yelpName>childcloth</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Department Stores</FriendlyName>
+    <yelpName>deptstores</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Formal Wear</FriendlyName>
+    <yelpName>formalwear</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Hats</FriendlyName>
+    <yelpName>hats</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Leather Goods</FriendlyName>
+    <yelpName>leather</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Lingerie</FriendlyName>
+    <yelpName>lingerie</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Maternity Wear</FriendlyName>
+    <yelpName>maternity</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Men's Clothing</FriendlyName>
+    <yelpName>menscloth</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Plus Size Fashion</FriendlyName>
+    <yelpName>plus_size_fashion</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Shoe Stores</FriendlyName>
+    <yelpName>shoes</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Sports Wear</FriendlyName>
+    <yelpName>sportswear</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Swimwear</FriendlyName>
+    <yelpName>swimwear</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Used, Vintage &amp; Consignment</FriendlyName>
+    <yelpName>vintage</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Women's Clothing</FriendlyName>
+    <yelpName>womenscloth</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Fireworks</FriendlyName>
+    <yelpName>fireworks</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Flowers &amp; Gifts</FriendlyName>
+    <yelpName>flowers</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Cards &amp; Stationery</FriendlyName>
+    <yelpName>stationery</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Florists</FriendlyName>
+    <yelpName>florists</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Flowers</FriendlyName>
+    <yelpName>flowersonly</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Gift Shops</FriendlyName>
+    <yelpName>giftshops</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Guns &amp; Ammo</FriendlyName>
+    <yelpName>guns_and_ammo</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Hobby Shops</FriendlyName>
+    <yelpName>hobbyshops</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Home &amp; Garden</FriendlyName>
+    <yelpName>homeandgarden</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Appliances</FriendlyName>
+    <yelpName>appliances</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Furniture Stores</FriendlyName>
+    <yelpName>furniture</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Hardware Stores</FriendlyName>
+    <yelpName>hardware</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Home Decor</FriendlyName>
+    <yelpName>homedecor</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Hot Tub and Pool</FriendlyName>
+    <yelpName>hottubandpool</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Kitchen &amp; Bath</FriendlyName>
+    <yelpName>kitchenandbath</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Mattresses</FriendlyName>
+    <yelpName>mattresses</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Nurseries &amp; Gardening</FriendlyName>
+    <yelpName>gardening</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Jewelry</FriendlyName>
+    <yelpName>jewelry</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Knitting Supplies</FriendlyName>
+    <yelpName>knittingsupplies</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Luggage</FriendlyName>
+    <yelpName>luggage</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Mobile Phones</FriendlyName>
+    <yelpName>mobilephones</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Musical Instruments &amp; Teachers</FriendlyName>
+    <yelpName>musicalinstrumentsandteachers</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Office Equipment</FriendlyName>
+    <yelpName>officeequipment</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Outlet Stores</FriendlyName>
+    <yelpName>outlet_stores</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Pawn Shops</FriendlyName>
+    <yelpName>pawn</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Personal Shopping</FriendlyName>
+    <yelpName>personal_shopping</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Photography Stores &amp; Services</FriendlyName>
+    <yelpName>photographystores</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Shopping Centers</FriendlyName>
+    <yelpName>shoppingcenters</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Sporting Goods</FriendlyName>
+    <yelpName>sportgoods</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Bikes</FriendlyName>
+    <yelpName>bikes</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Golf Equipment</FriendlyName>
+    <yelpName>golfequipment</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Outdoor Gear</FriendlyName>
+    <yelpName>outdoorgear</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Sports Wear</FriendlyName>
+    <yelpName>sportswear</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Thrift Stores</FriendlyName>
+    <yelpName>thrift_stores</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Tobacco Shops</FriendlyName>
+    <yelpName>tobaccoshops</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Toy Stores</FriendlyName>
+    <yelpName>toys</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Watches</FriendlyName>
+    <yelpName>watches</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Wholesale Stores</FriendlyName>
+    <yelpName>wholesale_stores</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Wigs</FriendlyName>
+    <yelpName>wigs</yelpName>
+  </category>
+</categories>
