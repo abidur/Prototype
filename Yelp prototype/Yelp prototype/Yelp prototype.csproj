@@ -145,6 +145,7 @@
     <Compile Include="API\BusinessController.cs" />
     <Compile Include="API\Category.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Helpers\BusinessHelper.cs" />
     <Compile Include="Helpers\CategoryHelper.cs" />
     <Compile Include="Images\YelpController.cs" />
     <Compile Include="Global.asax.cs">

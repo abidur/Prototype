@@ -9,3 +9,14 @@ c:\Yelp prototype\Yelp prototype.Tests\obj\Debug\Yelp prototype.Tests.dll
 c:\Yelp prototype\Yelp prototype.Tests\obj\Debug\Yelp prototype.Tests.pdb
 c:\Yelp prototype\Yelp prototype.Tests\bin\Debug\YelpSharp.dll
 c:\Yelp prototype\Yelp prototype.Tests\bin\Debug\RestSharp.dll
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype.Tests\bin\Debug\Yelp prototype.Tests.dll.config
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype.Tests\bin\Debug\Yelp prototype.Tests.dll
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype.Tests\bin\Debug\Yelp prototype.Tests.pdb
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype.Tests\bin\Debug\Yelp prototype.dll
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype.Tests\bin\Debug\YelpSharp.dll
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype.Tests\bin\Debug\RestSharp.dll
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype.Tests\bin\Debug\Yelp prototype.pdb
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype.Tests\obj\Debug\Yelp prototype.Tests.dll
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype.Tests\obj\Debug\Yelp prototype.Tests.pdb

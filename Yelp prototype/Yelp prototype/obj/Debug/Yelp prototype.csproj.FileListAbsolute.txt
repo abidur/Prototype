@@ -44,3 +44,49 @@ c:\Yelp prototype\Yelp prototype\bin\Newtonsoft.Json.dll
 c:\Yelp prototype\Yelp prototype\bin\RestSharp.dll
 c:\Yelp prototype\Yelp prototype\bin\YelpSharp.dll
 c:\Yelp prototype\Yelp prototype\bin\Newtonsoft.Json.xml
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype\obj\Debug\Yelp prototype.dll
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype\obj\Debug\Yelp prototype.pdb
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype\bin\Yelp prototype.dll
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype\bin\Yelp prototype.pdb
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype\bin\EntityFramework.dll
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype\bin\Newtonsoft.Json.dll
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype\bin\RestSharp.dll
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype\bin\System.Json.dll
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype\bin\System.Net.Http.dll
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype\bin\System.Net.Http.Formatting.dll
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype\bin\System.Net.Http.WebRequest.dll
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype\bin\System.Web.Helpers.dll
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype\bin\System.Web.Http.Common.dll
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype\bin\System.Web.Http.Data.dll
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype\bin\System.Web.Http.Data.EntityFramework.dll
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype\bin\System.Web.Http.Data.Helpers.dll
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype\bin\System.Web.Http.dll
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype\bin\System.Web.Http.WebHost.dll
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype\bin\System.Web.Mvc.dll
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype\bin\System.Web.Optimization.dll
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype\bin\System.Web.Providers.dll
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype\bin\System.Web.Razor.dll
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype\bin\System.Web.WebPages.Deployment.dll
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype\bin\System.Web.WebPages.dll
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype\bin\System.Web.WebPages.Razor.dll
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype\bin\YelpSharp.dll
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype\bin\EntityFramework.xml
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype\bin\Newtonsoft.Json.xml
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype\bin\System.Json.xml
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype\bin\System.Net.Http.xml
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype\bin\System.Net.Http.Formatting.xml
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype\bin\System.Net.Http.WebRequest.xml
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype\bin\System.Web.Helpers.xml
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype\bin\System.Web.Http.xml
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype\bin\System.Web.Http.Common.xml
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype\bin\System.Web.Http.Data.xml
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype\bin\System.Web.Http.Data.EntityFramework.xml
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype\bin\System.Web.Http.Data.Helpers.xml
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype\bin\System.Web.Http.WebHost.xml
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype\bin\System.Web.Mvc.xml
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype\bin\System.Web.Razor.xml
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype\bin\System.Web.WebPages.xml
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype\bin\System.Web.WebPages.Deployment.xml
+C:\Users\tmishler\Documents\GitHub\Prototype\Yelp prototype\Yelp prototype\bin\System.Web.WebPages.Razor.xml
