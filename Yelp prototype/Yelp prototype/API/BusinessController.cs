@@ -37,29 +37,22 @@ namespace Yelp_prototype.API.Controllers
         #endregion
 
         [HttpGet]
-        public string Get(string categoryList = "coffee", string Location="Kansas City, mo", string radius ="25")
+        public List<Business> Get(string categoryList = "coffee", string Location="Kansas City, mo", string radius ="25")
         {
             var o = GetOptions();
             var y = new Yelp(o);                                  
             var radiusVal = Convert.ToInt32(radius);
-            //string.Join(",", categoryList);
             categoryList = string.Join(",",CategoryHelper.GetYelpCategoryNames(categoryList.ToLower()));
-
             var searchOptions = new YelpSharp.Data.Options.SearchOptions();
-            searchOptions.GeneralOptions = new GeneralOptions()
-            {
-                term = "coffee"
+            searchOptions.GeneralOptions = new GeneralOptions(){
+                term = categoryList
             };
-
-            searchOptions.LocationOptions = new LocationOptions()
-            {
-                location = "seattle"
+            searchOptions.LocationOptions = new LocationOptions(){
+                location = Location,                
             };
-
             var results = y.Search(searchOptions);
-            JavaScriptSerializer js = new JavaScriptSerializer();
             Request.CreateResponse(HttpStatusCode.OK);
-            return js.Serialize(results.businesses);
+            return results.businesses;
         }
 
         //[HttpPost]
