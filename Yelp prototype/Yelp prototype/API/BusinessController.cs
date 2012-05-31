@@ -25,14 +25,6 @@ namespace Yelp_prototype.API.Controllers
         {
             Request.CreateResponse(HttpStatusCode.OK);
             return BusinessHelper.GetBusinesses(categoryList, Location, radius, isKidFriendly);
-        }
-
-        //[HttpPost]
-        //public List<Business> GenerateSchedule(string searchText, DateTime startTime, DateTime endTime)
-        //{
-        //    var validDestinations = Get(searchText);
-        //    return null;
-        //}
-        
+        }        
     }
 }

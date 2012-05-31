@@ -30,23 +30,49 @@ namespace Yelp_prototype.Helpers
 
         private static List<int> times = new List<int>() { 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22 };
 
-        private static Dictionary<int, string> SetEventTimes = new Dictionary<int, string>()
+        private static Dictionary<int, string> setEvents = new Dictionary<int, string>()
         {
-            {8 , "BreakFast"},
+            {8 , "Breakfast"},            
             {12 , "Food"},
             {19 , "Food"}
         };
+
+        private static string setUpDefaultCategories(string categoryList) {
+            foreach (string _event in setEvents.Values)
+            {
+                if (string.IsNullOrEmpty(categoryList))
+                    categoryList = CategoryHelper.GetYelpCategoryName(_event.ToLower());
+                else
+                    categoryList += "," + CategoryHelper.GetYelpCategoryName(_event.ToLower());
+            }
+            return categoryList;
+        }
+
+
+        private static string populateRemainingCategories(string categoryList)
+        {
+            var currectCategories = categoryList.Split(',');
+            var randomCategories = CategoryHelper.GetRandomCategories(currectCategories , times.Count() - currectCategories.Length);
+            return categoryList + string.Join("," , randomCategories);
+        }
+
+        private static List<Business> insertDestinationsIntoTimeSlots(List<Business> searchResults)
+        {
+            //TODO: IMPLEMENT
+            return null;
+        }
+
 
         public static List<Business> GetBusinesses(string categoryList, string Location, string radius, bool isKidFriendly)
         {
             var o = GetOptions();
             var y = new Yelp(o);
-            var radiusVal = Convert.ToInt32(radius);
-            foreach (string _event in SetEventTimes.Values)
-            {
-                categoryList = categoryList + "," + _event;
+            var radiusVal = Convert.ToInt32(radius);            
+            //We aren't searching for a specific destination replacement;
+            if (string.IsNullOrEmpty(categoryList)){
+                categoryList = setUpDefaultCategories(categoryList);
+                categoryList = populateRemainingCategories(categoryList);
             }
-            categoryList = string.Join(",", CategoryHelper.GetYelpCategoryNames(categoryList.ToLower()));
             var searchOptions = new YelpSharp.Data.Options.SearchOptions();
             searchOptions.GeneralOptions = new GeneralOptions(){
                 term = categoryList
@@ -54,8 +80,9 @@ namespace Yelp_prototype.Helpers
             searchOptions.LocationOptions = new LocationOptions(){
                 location = Location,
             };
-            var results = y.Search(searchOptions);            
-            return results.businesses;
+            var results = y.Search(searchOptions).businesses;
+            var retVals = insertDestinationsIntoTimeSlots(results);
+            return retVals;
         }
     }
 }
