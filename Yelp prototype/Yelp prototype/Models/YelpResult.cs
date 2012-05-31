@@ -6,8 +6,14 @@ using YelpSharp.Data;
 
 namespace Yelp_prototype.Models
 {
-    public class YelpResult : Business
+    [Serializable]
+    public class YelpResult
     {
-        
+        public int Hour { get; set; }
+        public YelpResult(int _hour, Business _business){
+            Hour = _hour;
+            Business = _business;
+        }
+        public Business Business { get; set; }
     }
 }

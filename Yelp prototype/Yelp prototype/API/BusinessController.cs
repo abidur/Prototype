@@ -21,10 +21,10 @@ namespace Yelp_prototype.API.Controllers
         // GET /api/<controller>        
 
         [HttpGet]
-        public List<Business> Get(string categoryList, string Location, string radius, bool isKidFriendly)
+        public List<YelpResult> Get(string categoryList, string Location, string radius, bool isKidFriendly, bool generateSchedule)
         {
             Request.CreateResponse(HttpStatusCode.OK);
-            return BusinessHelper.GetBusinesses(categoryList, Location, radius, isKidFriendly);
+            return BusinessHelper.GetBusinesses(categoryList, Location, radius, isKidFriendly, generateSchedule);
         }        
     }
 }

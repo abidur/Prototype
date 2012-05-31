@@ -25,7 +25,8 @@
             var data = {
                 location: $('#location').val(),                
                 radius: $('#radius').val(),
-                isKidFriendly: $('#kidFriendly').is(':checked')
+                isKidFriendly: $('#kidFriendly').is(':checked'),
+                generateSchedule: 'true'
             };
             console.log(data);
             $.ajax({                            
@@ -44,49 +45,58 @@
     });
 </script>
 
-
-<ul class="options">
-    <li>
-        <label for="location">
-            Location 
-        </label>
-        <br />
-        <input id="location" name="location" />
-    </li>
-    <li>
-        <label for="radius">
-            Radius 
-        <label>
-        <br />
-        <select style="list-style-type:none" id="radius" name="radius">            
-            <option value="5">
-                 < 5
-            </option>
-            <option value="10">
-                10
-            </option>
-            <option value="25">
-                25
-            </option>
-            <option value="50">
-                50
-            </option>
-        </select>
-    </li>
-    @*<li>
-        <label for="categoryList">
-            Activity Type 
-        </label>
-        <br />
-        <input id="categoryList" name="categoryList" />
-    </li> *@   
-    <li>
-        <label for="kidFriendly">
-            Kid Friendly
-        </label>
-        <br />
-        <input id="kidFriendly" name="kidFriendly" type="checkbox"/>
-    </li> 
+<div style="width:300x; float:left; padding-right:50px;">
+    <ul class="options">
+        <li>
+            <label for="location">
+                Location 
+            </label>
+            <br />
+            <input id="location" name="location" />
+        </li>
+        <li>
+            <label for="radius">
+                Radius 
+            <label>
+            <br />
+            <select style="list-style-type:none" id="radius" name="radius">            
+                <option value="5">
+                     < 5
+                </option>
+                <option value="10">
+                    10
+                </option>
+                <option value="25">
+                    25
+                </option>
+                <option value="50">
+                    50
+                </option>
+            </select>
+        </li>
+        @*<li>
+            <label for="categoryList">
+                Activity Type 
+            </label>
+            <br />
+            <input id="categoryList" name="categoryList" />
+        </li> *@   
+        <li>
+            <label for="kidFriendly">
+                Kid Friendly
+            </label>
+            <br />
+            <input id="kidFriendly" name="kidFriendly" type="checkbox"/>
+        </li> 
     
-</ul>
-<input type="submit" id="submitter" value="search" />
+    </ul>
+    <input type="submit" id="submitter" value="search" />
+</div>
+<div style="width:200px">
+    <ul id="junkHolder">
+    
+    </ul>
+</div>
+<div style="clear:both">
+    
+</div>

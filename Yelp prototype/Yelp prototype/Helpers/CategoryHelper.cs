@@ -20,14 +20,29 @@ namespace Yelp_prototype.Helpers
         }
 
         public static List<string> GetRandomCategories(string[] excludedCategories, int resultCount)
-        {
+        {            
             var xFileLocation = HostingEnvironment.MapPath("~/App_LocalResources/YelpCategories.xml");
             XDocument loaded = XDocument.Load(xFileLocation);
-            var q = from c in loaded.Descendants("category")
+            var AllCategorieCount = 
+                (from c in loaded.Descendants("category")
+                 select (string)c.Element("yelpName")).Count(); ;
+            var AllEligableCategories = from c in loaded.Descendants("category")
                     where !excludedCategories.Contains(c.Element("FriendlyName").Value.ToString().ToLower())
-                    select (string)c.Element("yelpName");
-            //TODO:Will this actually be random? Probalby not. WIll need to refactor
-            return q.ToList().Take(resultCount).ToList();
+                    select (string)c.Element("yelpName");            
+            List<string> retVals = new List<string>();
+            for (int i = 0; i < resultCount; i++ )
+            {
+                Random rnd = new Random();
+                int randomIndex = rnd.Next(0, AllEligableCategories.Count() - 1);
+                if (retVals.Contains(AllEligableCategories.ToList().Skip(randomIndex - 1).Take(1).Single())){
+                    while (randomIndex == rnd.Next(0, AllEligableCategories.Count() - 1)){
+                        randomIndex = rnd.Next(0, AllEligableCategories.Count() - 1);
+                    }
+                    
+                }
+                retVals.Add(AllEligableCategories.ToList().Skip(randomIndex - 1).Take(1).Single());
+            }
+            return retVals;
         }
     }
 }
