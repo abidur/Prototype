@@ -34,12 +34,12 @@ namespace Yelp_prototype.Helpers
             {
                 Random rnd = new Random();
                 int randomIndex = rnd.Next(0, AllEligableCategories.Count() - 1);
-                if (retVals.Contains(AllEligableCategories.ToList().Skip(randomIndex - 1).Take(1).Single())){
-                    while (randomIndex == rnd.Next(0, AllEligableCategories.Count() - 1)){
-                        randomIndex = rnd.Next(0, AllEligableCategories.Count() - 1);
-                    }
+                //if (retVals.Contains(AllEligableCategories.ToList().Skip(randomIndex - 1).Take(1).Single())){
+                //    while (randomIndex == rnd.Next(0, AllEligableCategories.Count() - 1)){
+                //        randomIndex = rnd.Next(0, AllEligableCategories.Count() - 1);
+                //    }
                     
-                }
+                //}
                 retVals.Add(AllEligableCategories.ToList().Skip(randomIndex - 1).Take(1).Single());
             }
             return retVals;

@@ -29,13 +29,15 @@ namespace Yelp_prototype.Helpers
         }
         #endregion
 
-        private static List<int> times = new List<int>() { 8, 10, 12, 14, 16, 18,  20, 22 };
+        //private static List<int> times = new List<int>() { 8, 10, 12, 14, 16, 18,  20, 22 };
+
+        private static List<int> times = new List<int>() { 8, 12, 18, 20, 22 };
 
         private static Dictionary<int, string> setEvents = new Dictionary<int, string>()
         {
             {8 , "Breakfast"},            
             {12 , "Food"},
-            {19 , "Food"}
+            {18 , "Food"}
         };
 
         private static string setUpDefaultCategories(string categoryList) {
@@ -65,13 +67,12 @@ namespace Yelp_prototype.Helpers
         {            
             List<YelpResult> retVal = new List<YelpResult>();
             //put the ones we know the time for into correct slot
+            int i = 0;
             foreach (var _time in setEvents.Keys)
-            {
-                var yelpName = CategoryHelper.GetYelpCategoryName(setEvents[_time].ToLower());
-                //business.categories[1] is the index at which the API Queryable name lives                
-                var destination = searchResults.Where(f => GetCategoriesFromBusiness(f).Contains(yelpName)).FirstOrDefault();                
-                searchResults.Remove(destination);
+            {                
+                var destination = searchResults[i++]; 
                 YelpResult yResult = new YelpResult(_time, destination);
+                searchResults.Remove(destination);
                 retVal.Add(yResult);
             }
             var openTimes = times.Where(f => !setEvents.Keys.Contains(f));

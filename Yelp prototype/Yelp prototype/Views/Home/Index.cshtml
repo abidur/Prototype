@@ -34,13 +34,14 @@
                 data: data,
                 dataType: 'json',
                 success: function (returnData) {
+                    var eventInfo = '';
                     $.each(returnData, function (i, item) {
-
+                        eventInfo += '<li>'+returnData[i].Hour+ ' ' + returnData[i].Business.name+'</li>'
                     });
+                    $('#eventHolder').html(eventInfo);
                 }
             });
-        });
-
+        });        
 
     });
 </script>
@@ -92,8 +93,8 @@
     </ul>
     <input type="submit" id="submitter" value="search" />
 </div>
-<div style="width:200px">
-    <ul id="junkHolder">
+<div style="width:200px; float:left;">
+    <ul id="eventHolder">
     
     </ul>
 </div>
