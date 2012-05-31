@@ -29,9 +29,7 @@ namespace Yelp_prototype.Helpers
         }
         #endregion
 
-        //private static List<int> times = new List<int>() { 8, 10, 12, 14, 16, 18,  20, 22 };
-
-        private static List<int> times = new List<int>() { 8, 12, 18, 20, 22 };
+        private static List<int> times = new List<int>() { 8, 10, 12, 18, 20, 22 };
 
         private static Dictionary<int, string> setEvents = new Dictionary<int, string>()
         {
@@ -76,8 +74,7 @@ namespace Yelp_prototype.Helpers
                 retVal.Add(yResult);
             }
             var openTimes = times.Where(f => !setEvents.Keys.Contains(f));
-            foreach (var time in openTimes)
-            { 
+            foreach (var time in openTimes){ 
                 var searchResult = searchResults.Take(1).FirstOrDefault();
                 if (searchResult == null)
                     break;                
@@ -87,7 +84,6 @@ namespace Yelp_prototype.Helpers
             }
             return retVal;
         }
-
 
         private static List<YelpResult> GenerateSchedule(string Location, string radius, bool isKidFriendly)
         {
@@ -99,8 +95,7 @@ namespace Yelp_prototype.Helpers
             var searchOptions = new YelpSharp.Data.Options.SearchOptions();
             var categories = categoryList.Split(',');
             List<Business> results = new List<Business>();
-            foreach (var category in categories)
-            {
+            foreach (var category in categories){
                 searchOptions.GeneralOptions = new GeneralOptions()
                 {
                     term = category
@@ -121,14 +116,24 @@ namespace Yelp_prototype.Helpers
             return retVals;
         }
 
-
-
-        private static List<YelpResult> GetSingleDestination(string categoryList, string Location, string radius, bool isKidFriendly)
+        private static List<YelpResult> GetSingleDestinationOptions(string categoryList, string Location, string radius, bool isKidFriendly)
         {
-            //TODO:Implement
             var o = GetOptions();
             var y = new Yelp(o);
-            return null;
+            var searchOptions = new YelpSharp.Data.Options.SearchOptions();
+            searchOptions.GeneralOptions = new GeneralOptions(){
+                term = categoryList
+            };
+            searchOptions.LocationOptions = new LocationOptions(){
+                location = Location,
+            };
+            var serchResults = y.Search(searchOptions).businesses;
+            List<YelpResult> retVals = new List<YelpResult>();
+            foreach (var biz in serchResults)
+            {
+                retVals.Add(new YelpResult(0, biz));
+            }
+            return retVals;
         }
 
         public static List<YelpResult> GetBusinesses(string categoryList, string Location, string radius, bool isKidFriendly, bool generateSchedule)
@@ -138,7 +143,7 @@ namespace Yelp_prototype.Helpers
                 return GenerateSchedule(Location, radius, isKidFriendly);
             }
             else{
-                return GetSingleDestination(categoryList, Location, radius, isKidFriendly);
+                return GetSingleDestinationOptions(categoryList, Location, radius, isKidFriendly);
             }            
         }
         
