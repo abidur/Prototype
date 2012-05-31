@@ -6,14 +6,13 @@
     $(document).ready(function () {
 
         var availableCategories = [];
-        $.ajax({
-            //type: "POST",
+        $.ajax({            
             url: "/api/CategoryName/get",
             dataType: 'json',
-            success: function (returnData) {                
+            success: function (returnData) {
                 $.each(returnData, function (i, item) {
                     availableCategories.push(returnData[i]);
-                });                
+                });
                 $('#categoryList').autocomplete({
                     source: availableCategories
                 })
@@ -21,17 +20,15 @@
         });
 
 
-
-
         $('#submitter').click(function () {
-
+            console.log($('#kidFriendly').is(':checked'));
             var data = {
-                location: $('#location').val(),
-                categoryList: $('#categoryList').val(),
-                radius: $('#radius').val()
+                location: $('#location').val(),                
+                radius: $('#radius').val(),
+                isKidFriendly: $('#kidFriendly').is(':checked')
             };
-            $.ajax({
-                //type: "POST",
+            console.log(data);
+            $.ajax({                            
                 url: "/api/Business/Get",
                 data: data,
                 dataType: 'json',
@@ -57,21 +54,11 @@
         <input id="location" name="location" />
     </li>
     <li>
-        <label for="categoryList">
-            Activity Type 
-        </label>
-        <br />
-        <input id="categoryList" name="categoryList" />
-    </li>    
-    <li>
         <label for="radius">
             Radius 
         <label>
         <br />
-        <select style="list-style-type:none" id="radius" name="radius">
-            <option value="5">
-                 Select Radius
-            </option>
+        <select style="list-style-type:none" id="radius" name="radius">            
             <option value="5">
                  < 5
             </option>
@@ -86,5 +73,20 @@
             </option>
         </select>
     </li>
+    @*<li>
+        <label for="categoryList">
+            Activity Type 
+        </label>
+        <br />
+        <input id="categoryList" name="categoryList" />
+    </li> *@   
+    <li>
+        <label for="kidFriendly">
+            Kid Friendly
+        </label>
+        <br />
+        <input id="kidFriendly" name="kidFriendly" type="checkbox"/>
+    </li> 
+    
 </ul>
 <input type="submit" id="submitter" value="search" />

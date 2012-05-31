@@ -143,7 +143,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="API\BusinessController.cs" />
-    <Compile Include="API\Category.cs" />
+    <Compile Include="API\CategoryNameController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Helpers\BusinessHelper.cs" />
     <Compile Include="Helpers\CategoryHelper.cs" />
