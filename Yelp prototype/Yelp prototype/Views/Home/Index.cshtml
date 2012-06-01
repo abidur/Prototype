@@ -6,7 +6,7 @@
     $(document).ready(function () {
 
         var availableCategories = [];
-        $.ajax({            
+        $.ajax({
             url: "/api/CategoryName/get",
             dataType: 'json',
             success: function (returnData) {
@@ -23,25 +23,37 @@
         $('#submitter').click(function () {
             console.log($('#kidFriendly').is(':checked'));
             var data = {
-                location: $('#location').val(),                
+                location: $('#location').val(),
                 radius: $('#radius').val(),
                 isKidFriendly: $('#kidFriendly').is(':checked'),
                 generateSchedule: 'true'
             };
             console.log(data);
-            $.ajax({                            
+            $.ajax({
                 url: "/api/Business/Get",
                 data: data,
                 dataType: 'json',
                 success: function (returnData) {
                     var eventInfo = '';
                     $.each(returnData, function (i, item) {
-                        eventInfo += '<li>'+returnData[i].Hour+ ' ' + returnData[i].Business.name+'</li>'
+                        eventInfo += '<li>' + normalizeTime(returnData[i].Hour) + ' ' + returnData[i].Business.name + '</li>'
                     });
                     $('#eventHolder').html(eventInfo);
                 }
             });
-        });        
+        });
+
+        var normalizeTime = function (time) {
+            var timeSig = "AM";
+            if (time > 11) {
+                timeSig = "PM";
+            }
+            if (time > 12) {
+                time = time - 12;
+            }
+
+            return time + ":00 " + timeSig;
+        }
 
     });
 </script>
@@ -93,7 +105,7 @@
     </ul>
     <input type="submit" id="submitter" value="search" />
 </div>
-<div style="width:200px; float:left;">
+<div style="width:500px; float:left;">
     <ul id="eventHolder">
     
     </ul>

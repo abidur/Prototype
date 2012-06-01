@@ -496,11 +496,11 @@
     <FriendlyName>Pool Halls</FriendlyName>
     <yelpName>poolhalls</yelpName>
   </category>
-  <category>
+  <!--<category>
     <FriendlyName>Restaurants</FriendlyName>
     <yelpName>restaurants</yelpName>
-  </category>
-  <category>
+  </category>-->
+  <!--<category>
     <FriendlyName>Afghan</FriendlyName>
     <yelpName>afghani</yelpName>
   </category>
@@ -559,11 +559,11 @@
   <category>
     <FriendlyName>Brazilian</FriendlyName>
     <yelpName>brazilian</yelpName>
-  </category>
+  </category> -->
   <category>
     <FriendlyName>Breakfast</FriendlyName>
     <yelpName>breakfast_brunch</yelpName>
-  </category>
+  </category><!--
   <category>
     <FriendlyName>Brunch</FriendlyName>
     <yelpName>breakfast_brunch</yelpName>
@@ -943,7 +943,7 @@
   <category>
     <FriendlyName>Vietnamese</FriendlyName>
     <yelpName>vietnamese</yelpName>
-  </category>
+  </category>-->
   <category>
     <FriendlyName>Shopping</FriendlyName>
     <yelpName>shopping</yelpName>

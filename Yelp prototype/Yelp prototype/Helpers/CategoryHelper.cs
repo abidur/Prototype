@@ -30,9 +30,9 @@ namespace Yelp_prototype.Helpers
                     where !excludedCategories.Contains(c.Element("FriendlyName").Value.ToString().ToLower())
                     select (string)c.Element("yelpName");            
             List<string> retVals = new List<string>();
+            Random rnd = new Random();
             for (int i = 0; i < resultCount; i++ )
             {
-                Random rnd = new Random();
                 int randomIndex = rnd.Next(0, AllEligableCategories.Count() - 1);
                 retVals.Add(AllEligableCategories.ToList().Skip(randomIndex - 1).Take(1).Single());
             }

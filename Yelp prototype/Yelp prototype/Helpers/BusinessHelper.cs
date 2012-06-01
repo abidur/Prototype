@@ -56,22 +56,21 @@ namespace Yelp_prototype.Helpers
             return categoryList + "," + string.Join("," , randomCategories);
         }
 
-        private static List<string> GetCategoriesFromBusiness(Business b)
-        {             
-            return b.categories.SelectMany(x => x).ToList();
-        }
+        //private static List<string> GetCategoriesFromBusiness(Business b)
+        //{             
+        //    return b.categories.SelectMany(x => x).ToList();
+        //}
 
         private static List<YelpResult> insertDestinationsIntoTimeSlots(List<Business> searchResults)
         {            
             List<YelpResult> retVal = new List<YelpResult>();
             //put the ones we know the time for into correct slot
-            int i = 0;
             foreach (var _time in setEvents.Keys)
             {                
-                var destination = searchResults[i++]; 
+                var destination = searchResults[0]; 
                 YelpResult yResult = new YelpResult(_time, destination);
-                searchResults.Remove(destination);
                 retVal.Add(yResult);
+                searchResults.Remove(destination);
             }
             var openTimes = times.Where(f => !setEvents.Keys.Contains(f));
             foreach (var time in openTimes){ 
@@ -113,7 +112,7 @@ namespace Yelp_prototype.Helpers
                 results.Add(serchResult[r]);
             }            
             var retVals = insertDestinationsIntoTimeSlots(results);
-            return retVals;
+            return retVals.OrderBy(f => f.Hour).ToList();
         }
 
         private static List<YelpResult> GetSingleDestinationOptions(string categoryList, string Location, string radius, bool isKidFriendly)
