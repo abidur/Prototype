@@ -1,0 +1,28 @@
+C:\Users\justbe.REDMOND.000\Dropbox\Code\YelpSharp\YelpSharp\bin\Debug\YelpSharp.dll
+C:\Users\justbe.REDMOND.000\Dropbox\Code\YelpSharp\YelpSharp\bin\Debug\YelpSharp.pdb
+C:\Users\justbe.REDMOND.000\Dropbox\Code\YelpSharp\YelpSharp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\justbe.REDMOND.000\Dropbox\Code\YelpSharp\YelpSharp\bin\Debug\Twitterizer2.dll
+C:\Users\justbe.REDMOND.000\Dropbox\Code\YelpSharp\YelpSharp\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\justbe.REDMOND.000\Dropbox\Code\YelpSharp\YelpSharp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\justbe.REDMOND.000\Dropbox\Code\YelpSharp\YelpSharp\bin\Debug\Twitterizer2.xml
+C:\Users\justbe.REDMOND.000\Dropbox\Code\YelpSharp\YelpSharp\obj\Debug\YelpSharp.csprojResolveAssemblyReference.cache
+C:\Users\justbe.REDMOND.000\Dropbox\Code\YelpSharp\YelpSharp\obj\Debug\YelpSharp.dll
+C:\Users\justbe.REDMOND.000\Dropbox\Code\YelpSharp\YelpSharp\obj\Debug\YelpSharp.pdb
+C:\Users\justbe\Dropbox\Code\YelpSharp\YelpSharp\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\justbe\Dropbox\Code\YelpSharp\YelpSharp\bin\Debug\YelpSharp.dll
+C:\Users\justbe\Dropbox\Code\YelpSharp\YelpSharp\bin\Debug\YelpSharp.pdb
+C:\Users\justbe\Dropbox\Code\YelpSharp\YelpSharp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\justbe\Dropbox\Code\YelpSharp\YelpSharp\bin\Debug\Twitterizer2.dll
+C:\Users\justbe\Dropbox\Code\YelpSharp\YelpSharp\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\justbe\Dropbox\Code\YelpSharp\YelpSharp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\justbe\Dropbox\Code\YelpSharp\YelpSharp\bin\Debug\Twitterizer2.xml
+C:\Users\justbe\Dropbox\Code\YelpSharp\YelpSharp\obj\Debug\YelpSharp.dll
+C:\Users\justbe\Dropbox\Code\YelpSharp\YelpSharp\obj\Debug\YelpSharp.pdb
+C:\_working\ExperimentalProjects\Git Hub Prototype\Prototype\YelpSharp\obj\Debug\YelpSharp.csprojResolveAssemblyReference.cache
+C:\_working\ExperimentalProjects\Git Hub Prototype\Prototype\YelpSharp\bin\Debug\YelpSharp.dll
+C:\_working\ExperimentalProjects\Git Hub Prototype\Prototype\YelpSharp\bin\Debug\YelpSharp.pdb
+C:\_working\ExperimentalProjects\Git Hub Prototype\Prototype\YelpSharp\bin\Debug\Newtonsoft.Json.dll
+C:\_working\ExperimentalProjects\Git Hub Prototype\Prototype\YelpSharp\bin\Debug\RestSharp.dll
+C:\_working\ExperimentalProjects\Git Hub Prototype\Prototype\YelpSharp\bin\Debug\Newtonsoft.Json.xml
+C:\_working\ExperimentalProjects\Git Hub Prototype\Prototype\YelpSharp\obj\Debug\YelpSharp.dll
+C:\_working\ExperimentalProjects\Git Hub Prototype\Prototype\YelpSharp\obj\Debug\YelpSharp.pdb
