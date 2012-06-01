@@ -156,6 +156,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_LocalResources\MakeMyDay.xml" />
     <Content Include="App_LocalResources\YelpCategories.xml">
       <SubType>Designer</SubType>
     </Content>
