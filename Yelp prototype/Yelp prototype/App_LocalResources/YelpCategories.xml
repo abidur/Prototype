@@ -561,7 +561,11 @@
     <yelpName>brazilian</yelpName>
   </category>
   <category>
-    <FriendlyName>Breakfast &amp; Brunch</FriendlyName>
+    <FriendlyName>Breakfast</FriendlyName>
+    <yelpName>breakfast_brunch</yelpName>
+  </category>
+  <category>
+    <FriendlyName>Brunch</FriendlyName>
     <yelpName>breakfast_brunch</yelpName>
   </category>
   <category>
