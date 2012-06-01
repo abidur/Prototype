@@ -1,0 +1,42 @@
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#btnMain").live("click", function () {
+
+            getInitialData();
+        });
+
+        function getInitialData() {
+            navigator.geolocation.getCurrentPosition(function (pos) {
+
+                $.getJSON("/api/MyDay/GetAll?lat=" + pos.coords.latitude + "&lon=" + pos.coords.longitude, function (data) {
+
+                    $("#myDay").html($("#BusinessTemplate").render(data));
+                });
+            });
+
+        }
+    });
+
+</script>
+<header>
+    <div class="content-wrapper">
+        <div class="float-left">
+            <p class="site-title"><a href="/">Make My Day</a></p>
+        </div>
+    </div>
+</header>
+<div id="body">
+    <button id="btnMain">Make My Day</button>
+</div>
+<div id="myDay"></div>
+<script id="BusinessTemplate" type="text/x-jsrender">
+
+    <div class="timeSlot">
+        <div class="Business">
+            <div class="name"><b>{{:name}}</b></div>
+            <div class="call">{{:phone}}</div>
+            <div class="remove">Remove Me</div>
+        </div>
+    </div>
+
+</script>

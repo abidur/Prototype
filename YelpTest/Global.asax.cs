@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Web;
 using System.Web.Http;
@@ -9,7 +10,7 @@ using System.Web.Routing;
 
 namespace YelpTest
 {
-    // Note: For instructions on enabling IIS6 or IIS7 classic mode, 
+    // Note: For instructions on enabling IIS6 or IIS7 classic mode,
     // visit http://go.microsoft.com/?LinkId=9394801
 
     public class WebApiApplication : System.Web.HttpApplication
@@ -22,7 +23,6 @@ namespace YelpTest
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
-
             routes.MapHttpRoute(
                 name: "DefaultApi",
                 routeTemplate: "api/{controller}/{id}",
@@ -44,6 +44,20 @@ namespace YelpTest
             RegisterRoutes(RouteTable.Routes);
 
             BundleTable.Bundles.RegisterTemplateBundles();
+        }
+
+        public static YelpSharp.Options YelpOptions
+        {
+            get
+            {
+                return new YelpSharp.Options
+                {
+                    AccessToken = ConfigurationManager.AppSettings["AccessToken"],
+                    AccessTokenSecret = ConfigurationManager.AppSettings["AccessTokenSecret"],
+                    ConsumerKey = ConfigurationManager.AppSettings["ConsumerKey"],
+                    ConsumerSecret = ConfigurationManager.AppSettings["ConsumerSecret"]
+                };
+            }
         }
     }
 }
