@@ -33,18 +33,18 @@ namespace Yelp_prototype.Helpers
 
         private static Dictionary<int, string> setEvents = new Dictionary<int, string>()
         {
-            {8 , "Breakfast"},            
-            {12 , "Food"},
-            {18 , "Food"}
+            {8 , "breakfast_brunch"},            
+            {12 , "restaurants"},
+            {18 , "restaurants"}
         };
 
         private static string setUpDefaultCategories(string categoryList) {
             foreach (string _event in setEvents.Values)
             {
                 if (string.IsNullOrEmpty(categoryList))
-                    categoryList = CategoryHelper.GetYelpCategoryName(_event.ToLower());
+                    categoryList = _event.ToLower();
                 else
-                    categoryList += "," + CategoryHelper.GetYelpCategoryName(_event.ToLower());
+                    categoryList += "," + _event.ToLower();
             }
             return categoryList;
         }
@@ -55,20 +55,16 @@ namespace Yelp_prototype.Helpers
             var randomCategories = CategoryHelper.GetRandomCategories(currectCategories , times.Count() - currectCategories.Length);
             return categoryList + "," + string.Join("," , randomCategories);
         }
-
-        //private static List<string> GetCategoriesFromBusiness(Business b)
-        //{             
-        //    return b.categories.SelectMany(x => x).ToList();
-        //}
-
-        private static List<YelpResult> insertDestinationsIntoTimeSlots(List<Business> searchResults)
+        
+        private static List<YelpResult> insertDestinationsIntoTimeSlots(List<YelpResult> searchResults)
         {            
             List<YelpResult> retVal = new List<YelpResult>();
             //put the ones we know the time for into correct slot
             foreach (var _time in setEvents.Keys)
             {                
-                var destination = searchResults[0]; 
-                YelpResult yResult = new YelpResult(_time, destination);
+                var destination = searchResults[0];
+                searchResults.Remove(searchResults[0]);
+                YelpResult yResult = new YelpResult(_time, destination.Business, destination.MatchingBusinesses);
                 retVal.Add(yResult);
                 searchResults.Remove(destination);
             }
@@ -78,7 +74,7 @@ namespace Yelp_prototype.Helpers
                 if (searchResult == null)
                     break;                
                 searchResults.Remove(searchResult);
-                YelpResult randomResult = new YelpResult(time, searchResult);
+                YelpResult randomResult = new YelpResult(time, searchResult.Business, searchResult.MatchingBusinesses);
                 retVal.Add(randomResult);
             }
             return retVal;
@@ -93,7 +89,7 @@ namespace Yelp_prototype.Helpers
             categoryList = populateRemainingCategories(categoryList);            
             var searchOptions = new YelpSharp.Data.Options.SearchOptions();
             var categories = categoryList.Split(',');
-            List<Business> results = new List<Business>();
+            List<YelpResult> results = new List<YelpResult>();
             foreach (var category in categories){
                 searchOptions.GeneralOptions = new GeneralOptions()
                 {
@@ -109,7 +105,9 @@ namespace Yelp_prototype.Helpers
                     continue;
                 Random rnd = new Random();
                 int r = rnd.Next(0 , serchResult.Count - 1);
-                results.Add(serchResult[r]);
+                serchResult.Remove(serchResult[r]);
+                YelpResult yResult = new YelpResult(0, serchResult[r], serchResult);
+                results.Add(yResult);
             }            
             var retVals = insertDestinationsIntoTimeSlots(results);
             return retVals.OrderBy(f => f.Hour).ToList();
@@ -126,13 +124,9 @@ namespace Yelp_prototype.Helpers
             searchOptions.LocationOptions = new LocationOptions(){
                 location = Location,
             };
-            var serchResults = y.Search(searchOptions).businesses;
-            List<YelpResult> retVals = new List<YelpResult>();
-            foreach (var biz in serchResults)
-            {
-                retVals.Add(new YelpResult(0, biz));
-            }
-            return retVals;
+            var serchResults = y.Search(searchOptions).businesses;            
+            var retVal = new YelpResult(0, serchResults[0], serchResults);
+            return new List<YelpResult> { retVal } ;
         }
 
         public static List<YelpResult> GetBusinesses(string categoryList, string Location, string radius, bool isKidFriendly, bool generateSchedule)

@@ -16,9 +16,13 @@ namespace Yelp_prototype.Models
         [DataMember]
         public Business Business { get; set; }
 
-        public YelpResult(int _hour, Business _business){
+        [DataMember]
+        public List<Business> MatchingBusinesses { get; set; }
+
+        public YelpResult(int _hour, Business _business, List<Business> _matchingBusinesses){
             Hour = _hour;
             Business = _business;
+            MatchingBusinesses = _matchingBusinesses;
         }
 
         
