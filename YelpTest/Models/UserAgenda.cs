@@ -7,7 +7,11 @@ namespace YelpTest.Models
 {
     public class UserAgenda
     {
-        private readonly Guid id = Guid.NewGuid();
+        public UserAgenda()
+        {
+            id = Guid.NewGuid();
+        }
+        private readonly Guid id;
 
         public Guid Id
         {
@@ -17,6 +21,7 @@ namespace YelpTest.Models
             }
         }
 
-        public IList<Agenda> Id { get; set; }
+        public IList<Agenda> Agendas { get; set; }
+        
     }
 }

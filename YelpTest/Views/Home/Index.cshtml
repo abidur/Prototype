@@ -42,9 +42,10 @@
 <div id="myDay"></div>
 <script id="BusinessTemplate" type="text/x-jsrender">
     <div class="timeSlot">
+        Time: {{:TimeString}}
         <div class="Business">
-            <div class="name"><b>{{:name}}</b></div>
-            <div class="call">{{:phone}}</div>
+            <div class="name"><b>{{:Business.name}}</b></div>
+            <div class="call">{{:Business.phone}}</div>
             <div class="remove">Remove Me</div>
         </div>
         <br />

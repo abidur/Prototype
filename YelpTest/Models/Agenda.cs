@@ -11,6 +11,7 @@ namespace YelpTest.Models
         public Business Business { get; set; }
 
         public int TimeSlot { get; set; }
+        public string TimeString { get; set; }
 
         public static readonly Dictionary<int, string> TimeLine = new Dictionary<int, string>{
             {1,"8am to 9am"},

@@ -7,20 +7,21 @@ using YelpSharp;
 using YelpSharp.Data;
 using YelpSharp.Data.Options;
 using YelpSharp.Util;
+using YelpTest.Models;
 
 namespace YelpTest.Controllers
 {
     public class MyDayController : ApiController
     {
         // GET /api/default1
-        public List<Business> GetAll(double lat, double lon)
+        public IList<Agenda> GetAll(double lat, double lon)
         {
             Yelp yelp = new Yelp(WebApiApplication.YelpOptions);
             //var results = yelp.Search("coffee", "kansas city");
 
             var results = yelp.Search(new SearchOptions
             {
-                GeneralOptions = new GeneralOptions { category_filter = "food", radius_filter = 30000, term = "coffee" },
+                GeneralOptions = new GeneralOptions { category_filter = "food", radius_filter = 30000, term = "coffee", limit=6, offset=0 , sort=2, deals_filter=false},
                 LocationOptions = new CoordinateOptions
                 {
                     latitude = lat,
@@ -28,7 +29,15 @@ namespace YelpTest.Controllers
                 }
             });
 
-            return results.businesses;
+            UserAgenda uAgenda=new UserAgenda();
+            int i = 0;
+            uAgenda.Agendas = new List<Agenda>();
+            foreach (var result in results.businesses)
+            {
+                uAgenda.Agendas.Add(new Agenda { Business = result, TimeSlot = ++i, TimeString=Agenda.TimeLine[++i] });
+            }
+
+            return uAgenda.Agendas;
         }
 
         // GET /api/default1/5
