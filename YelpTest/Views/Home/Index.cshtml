@@ -9,23 +9,36 @@
             navigator.geolocation.getCurrentPosition(function (pos) {
 
                 $.getJSON("/api/MyDay/GetAll?lat=" + pos.coords.latitude + "&lon=" + pos.coords.longitude, function (data) {
+                    //$("#myDay").html($("#BusinessTemplate").render(data));
 
-                    var items = [];
+                    for (var i = 0; i < 6; i++) {
+                        setData(i, data[i], agenda.Business);
+                    }
 
-                    $.each(data, function (key, val) {
-                        items.push('<li id="' + key + '">' + val.name + '</li>');
-                    });
-
-                    $('<ul/>', {
-                        'class': 'my-new-list',
-                        html: items.join('')
-                    }).appendTo('body');
-
-                    $("#myDay").html($("#BusinessTemplate").render(data));
                 });
             });
 
         }
+
+        function setData(divIndex, agenda, currentBusiness) {
+
+            $('<div class="timeSlot">Time: ' + agenda.TimeString + '\n\
+            <div class="Business">\n\
+            <div class="name"><b>' + currentBusiness.name + '</b></div>\n\
+            <div class="call">' + currentBusiness.phone + '</div>\n\
+            <button id="previous">Previous</button>\n\
+            <button id="next" onClick="nextBusiness('+ divIndex + ',' + agenda + ',0)">Next</button>\n\
+            <div class="remove">Remove Me</div></div><br /><br /></div>')
+            .appendTo("#myDay")
+
+        }
+
+        function nextBusiness(divIndex, agenda, businessIndex) {
+            //$("#myDay").children(1, ".timeSlot").hide();
+
+            setData(agenda, agenda.AllOtherOptionsIntheSameCategory[index + 1])
+        }
+
     });
 
 </script>
@@ -39,16 +52,20 @@
 <div id="body">
     <button id="btnMain">Make My Day</button>
 </div>
-<div id="myDay"></div>
-<script id="BusinessTemplate" type="text/x-jsrender">
+<div id="myDay">
+</div>
+@*<script id="BusinessTemplate" type="text/x-jsrender">
     <div class="timeSlot">
+        <span data-link="#index+1"></span>:
         Time: {{:TimeString}}
         <div class="Business">
             <div class="name"><b>{{:Business.name}}</b></div>
             <div class="call">{{:Business.phone}}</div>
+            <button id="previous">Previous</button>
+            <button id="next">Next</button>
             <div class="remove">Remove Me</div>
         </div>
         <br />
         <br />
     </div>
-</script>
+</script>*@
