@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<categories>
+    <category friendlyName="Active Life" yelpName="active">
+        <time>10</time>
+        <time>15</time>
+    </category>
+    <category friendlyName="Breakfast and Brunch" yelpName="breakfast_brunch">
+        <time>8</time>
+    </category>
+    <category friendlyName="Restaurants" yelpName="restaurants">
+        <time>18</time>
+        <time>12</time>
+    </category>
+    <category friendlyName="Shopping" yelpName="shopping">
+        <time>10</time>
+        <time>15</time>
+    </category>
+    <category friendlyName="Arts and Entertainment (arts)" yelpName="arts">
+        <time>10</time>
+        <time>15</time>
+    </category>
+    <category friendlyName="Nightlife" yelpName="nightlife">
+        <time>22</time>
+    </category>
+</categories>
