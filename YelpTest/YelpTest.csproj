@@ -257,12 +257,6 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\YelpSharp\YelpSharp.csproj">
-      <Project>{321c2b03-b897-4351-a60b-b5987a67fe6c}</Project>
-      <Name>YelpSharp</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Views\Home\Index.mobile.cshtml" />
   </ItemGroup>
   <ItemGroup>

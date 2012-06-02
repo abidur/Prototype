@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<categories>
+  
+  <category>
+    <FriendlyName>Active Life</FriendlyName>
+    <yelpName>active</yelpName>
+  </category>
+  
+  <category>
+    <FriendlyName>Arts And Entertainment</FriendlyName>
+    <yelpName>arts</yelpName>
+  </category>
+  
+  <category>
+    <FriendlyName>Breakfast And Brunch</FriendlyName>
+    <yelpName>breakfast_brunch</yelpName>
+  </category>
+    
+  <category>
+    <FriendlyName>Local Flavor</FriendlyName>
+    <yelpName>localflavor</yelpName>
+  </category>
+
+  <category>
+    <FriendlyName>Nightlife</FriendlyName>
+    <yelpName>nightlife</yelpName>
+  </category>
+
+  <category>
+    <FriendlyName>Restaurants</FriendlyName>
+    <yelpName>restaurants</yelpName>
+  </category>
+
+  <category>
+    <FriendlyName>Shopping</FriendlyName>
+    <yelpName>shopping</yelpName>
+  </category>
+  
+</categories>

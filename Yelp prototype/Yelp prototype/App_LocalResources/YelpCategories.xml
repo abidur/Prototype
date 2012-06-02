@@ -496,10 +496,10 @@
     <FriendlyName>Pool Halls</FriendlyName>
     <yelpName>poolhalls</yelpName>
   </category>
-  <!--<category>
+  <category>
     <FriendlyName>Restaurants</FriendlyName>
     <yelpName>restaurants</yelpName>
-  </category>-->
+  </category>
   <!--<category>
     <FriendlyName>Afghan</FriendlyName>
     <yelpName>afghani</yelpName>
